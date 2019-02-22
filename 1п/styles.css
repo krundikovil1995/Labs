@@ -1,0 +1,99 @@
+body {
+       font-family: Verdana, Arial, sans-serif;
+}
+
+#middle {padding: 10px 0 10px;
+         margin: 0 auto;
+		 width: 1040px;
+}
+#header { float: top;
+	      background: url(hat.jpg);
+		  height: 80px;
+		  width: 1040px;
+}
+#header h1 {
+	         font-style:italic;
+			 text-shadow: 3px 1px 2px #4c2e52;
+			 color: #755f79;
+			 margin: 20px;
+			 margin-top: 40px;
+			 font-size: 48px;
+}
+
+#header form {
+	           margin: 20px;
+			   padding: 20px;
+			   margin-bottom: 20px;
+}
+
+.menu { display: flex;
+        margin-top:-10px;
+        height : 50px;
+        padding: 10px;
+		background-color: #a452b8;
+		list-style-type: none;
+		margin-bottom: 0px;
+		justify-content: flex-start;
+}
+
+.menu li a {flex-direction: row;
+            text-align: center;
+            padding: 30px;
+			color: #38410a;
+			text-decoration: none;
+			font-weight: bold;
+			font-size:18px;
+	        border: 0px solid #9a2579;
+		
+			
+}
+
+  #table {width:1040px;
+         height:auto;
+		 border:0px solid #000000;
+}
+
+			   
+ .aleft {        vertical-align:top;
+                 margin: 0px;
+	             width: 20%;
+				 border: 0px solid #000000;
+				 background-color: #eee;
+ }
+ 
+ .aleft h3 {float:top;
+	        font-size: 18px;
+            padding: 5px;
+			color: #9e2a7d;
+ }
+ .aMain { width:60%;
+          height: auto;
+		  border: 0px solid #000000;
+		  background-color: #807e7f;
+ }
+ .aMain td {
+ vertical-align: top
+ }
+ .aMain .atable {border: 0px solid #fff;
+ }
+ 
+ .aRight {vertical-align:top;
+	      float: top;
+	      width: 20%;
+          height: auto;
+		  border: 0px solid #000000;
+		  background-color: #eee;
+ }
+ 
+ form { padding: 10px;
+ }
+
+ #footer {float:bottom;
+        width: auto;
+		height: 50px;
+		text-align: center;
+		font-style: italic;
+		font-size: 14px;
+}
+
+		   

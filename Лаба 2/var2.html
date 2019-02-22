@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Лаба 2</title>
+	  <meta charset="utf-8">
+	  <link href="style2.css" rel="stylesheet" type="text/css"/>
+	  </head>
+	  <body>
+	     <?php 
+            function dm($data) {
+                 "<pre>".print_r($data, 1)."</pre>";
+}				 
+		 
+		    $str = "Hello world! How are you? Are you good?";
+			$array = explode(' ', $str);
+			print_r($array);
+			
+			array_walk($array, function(&$value, $key){
+			if(($key+1)%3 == 0){
+			  $value = strtoupper($value);
+			  }
+			  });
+			  $str2 = implode(' ', $array);
+			  echo($str2);
+			  
+		    for ($i = 0; $i < count($array); $i++)
+ {
+            if (($i +1 ) % 3 == 0)
+              {
+                 $array[$i] = strtoupper($array[$i]);
+               }
+}
+  $str2 = implode(' ', $array);
+           echo ($str2);
+
+    $str = "Hello world! How are you? Are you good?";
+			$array = explode(' ', $str);
+         	
+
+             foreach ($array as $value)
+              {
+                 if (($key +1)%3 == 0) 
+                { 
+                  $array[$key] = strtoupper($array[$key]);
+                 }
+                }
+              $str2 = implode(' ', $array);
+              echo($str2);			  
+			  
+			  
+		?>
+	</body>
+</html>

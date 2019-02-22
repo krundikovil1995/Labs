@@ -1,0 +1,82 @@
+a{
+    text-decoration:none;
+}
+a:visited{
+    color: #00ffdb;
+}
+a:hover{
+    text-decoration:none;
+}
+.onleft {
+    float: left;
+    font-family: Comic Sans MS, Times New Roman, sans-serif;
+    color: #843F00;
+    font-size: 16px;
+    text-shadow: none;
+    margin-right: 5px;
+}
+.st {
+    font-family: Comic Sans MS, Times New Roman, sans-serif;
+    color: #843F00;
+    font-size: 16px;
+    text-shadow: none;
+}
+.onright {
+    float: right;
+    font-family: Comic Sans MS, Times New Roman, sans-serif;
+    color: #843F00;
+    font-size: 16px;
+    text-shadow: none;
+    margin-left: 5px;
+}
+.skate{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+.zagolovok{
+    color: #00840f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.zagolovok1{
+    color: #004784;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#menu ul{
+    list-style: none outside none;
+    height: 84px;
+}
+#menu li{
+    margin: 5px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    color: #00ffdb;
+    display: inline-block;
+    width: 240px;
+    height: 77px;
+    margin-right: -4px;
+    border-radius: 10px;
+    background-color: #00a5ff; 
+    transition: 0.5s;
+}
+#menu li:hover{
+    transition: 0.5s;
+    color: #8000ff;
+    background-color: #ebff00;
+}
+#topname{
+    font-size: 198px;
+    color:darkslateblue;
+}
+#bottom{
+    text-align: center;
+    color: #2400B4;
+    font-family: Comic Sans MS, Times New Roman, sans-serif;
+    font-size:22px;
+}

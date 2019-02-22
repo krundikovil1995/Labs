@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset='utf-8'>
+   <title>Страница</title>
+   <link href="var.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+    <?php
+	   $color = 000000;
+       for ($i = 0; $i<1000; $i++)
+       {
+         $col = dechex($i);
+       $col = str_pad($col, 6, "0", STR_PAD_LEFT);	 
+	   echo "<span style='background:#$col; border: 2px solid #000000; color:#ff0000';>Строка № $i<br></span>";
+	   echo $col;
+	   }
+	  ?>
+    </body>
+</html>	
