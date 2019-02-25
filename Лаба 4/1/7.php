@@ -9,11 +9,11 @@ function convertText($x){
         return '<b. style="background-color: #00840f">'.$text.'</b.>';
     } else if (preg_match('/[A-Z-a-z]+/', $text)){
         return '<b style="background-color: #00a5ff">'.$text.'</b>';
-    } else if (preg_match('/[А-Яа-я]+/u', $text)){
+    } else if (preg_match('/[А-Яа-пр-яЁё]+/', $text)){
         return '<b style="background-color: red">'.$text.'</b>';
     }
 }
 
-echo preg_replace_callback('/[\wА-Яа-яЁё]+/u', 'convertText', $str);
+echo preg_replace_callback('/[\wА-Яа-пр-яЁё]+/', 'convertText', $str);
 
 ?>
