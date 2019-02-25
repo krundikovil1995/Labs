@@ -7,7 +7,6 @@ function convertDate ($x){
     $date = trim($x[0], '.');
     $date = preg_replace('![^0-9]+!', '-', $date);
     if (preg_match('/[\d]{1,2}[-][\d]{1,2}[-][\d]{2}$/', $date)){
-        $length = strlen($date);
         $numb = substr($date, -2);
         if ($numb<20) {
             $date = substr_replace($date, "20$numb", -2);
