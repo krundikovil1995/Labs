@@ -14,7 +14,7 @@ function convertText ($x){
       return '<b style="text-decoration: underline">'.$text.'</b>';
    } else if (preg_match('/[\d]+/', $text)){
        return '<b style="background-color: #00a5ff">'.$text.'</b>';
-   } else if (preg_match('/[\w_-]+[\.]/', $text)){
+   } else if (preg_match('/[\w_-]+[\.]$/', $text)){
        return $text.'<p>'.'</p>';
    } else return $text;
 }
