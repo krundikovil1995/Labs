@@ -1,6 +1,6 @@
 <?php
 
-$str = 'this is the URL of the site: https://news.tut.by/economics/627365.html';
+$str = 'this is the URL of the site: https://vk.com/feed';
 
 function changeStyleURL ($t){
     $url = trim($t[0], '.');
