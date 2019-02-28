@@ -7,7 +7,6 @@ function dm($data)
 
 $textarea = file_get_contents('10.html');
 $array = explode(' ', $textarea);
-dm($array);
 
 foreach ($array as $key=>$value){
     if (preg_match('/^[\d]+$/', $value)){
@@ -16,12 +15,11 @@ foreach ($array as $key=>$value){
 }
 
 $str = implode($array, ' ');
-echo $str;
 
 
 function convertText($x){
     if (preg_match('/\<i\>[А-Яа-пр-яЁё" "]+\<\/i\>/', $x[0])) {
-        return '<b style="background-color: red">' . $x[0] . '</b>';
+        return '<b style="background-color: #00ffdb">' . $x[0] . '</b>';
     } else if (preg_match('/\<strong\>[А-Яа-пр-яЁё" "]+\<\/strong\>/', $x[0])){
         return '<b style="background-color: #9e2a7d">'.$x[0].'</b>';
     }
